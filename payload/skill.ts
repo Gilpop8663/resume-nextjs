@@ -1,29 +1,29 @@
 import { ISkill } from '../component/skill/ISkill';
 
-const backend: ISkill.Skill = {
-  category: 'Back-end',
-  items: [
-    {
-      title: 'Node.js',
-    },
-    {
-      title: 'AWS',
-    },
+// const backend: ISkill.Skill = {
+//   category: 'Back-end',
+//   items: [
+//     {
+//       title: 'Node.js',
+//     },
+//     {
+//       title: 'AWS',
+//     },
 
-    {
-      title: 'Python',
-    },
-  ],
-};
+//     {
+//       title: 'Python',
+//     },
+//   ],
+// };
 
-const database: ISkill.Skill = {
-  category: 'Database',
-  items: [
-    {
-      title: 'MongoDB',
-    },
-  ],
-};
+// const database: ISkill.Skill = {
+//   category: 'Database',
+//   items: [
+//     {
+//       title: 'MongoDB',
+//     },
+//   ],
+// };
 
 const frontend: ISkill.Skill = {
   category: 'Front-end',
