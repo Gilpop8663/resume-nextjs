@@ -50,7 +50,7 @@ function serialize(item: Item): IRow.Payload {
       );
       return `${startedAt} ~ ${endedAt}`;
     }
-    return startedAt;
+    return `${startedAt} ~`;
   })();
 
   return {
